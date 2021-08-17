@@ -63,8 +63,6 @@ header .area-inner{
 }
 .contain-nav ul li .tab:hover{
     font-weight: 550;
-    border-bottom: 2px solid #000;
-
 }
 .contain-nav ul li .depth{
     position: absolute;
@@ -79,8 +77,13 @@ header .area-inner{
     background-color: #fff;
     text-align: center;
     overflow: hidden;
-    /* display: none; */
+    display: none;
 }
+.contain-nav ul li:hover .depth{
+    display: block;
+    border-top: 3px solid #000;
+}
+
 .contain-nav ul li .depth a{
     display: block;
     margin: 8px 0;
@@ -110,6 +113,3 @@ header .area-inner{
     font-weight: 600;
 }
 
-.contain-nav ul li .tab:hover .contain-nav ul li .depth{
-    display: block;
-}
