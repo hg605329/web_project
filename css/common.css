@@ -1,4 +1,15 @@
 @charset 'utf-8';
+html,
+body {
+  margin: 0;
+}
+ul,
+li,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 header{
     position: relative;
     height: 90px;
