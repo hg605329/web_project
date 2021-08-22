@@ -203,6 +203,7 @@ footer{
   margin-bottom: 70px;
 }
 .footer-inner .footer-box dl{
+  color: #333;
   margin: 0 72px 0 0;
 }
 .footer-inner .footer-box dl dt{
