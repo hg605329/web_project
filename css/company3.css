@@ -1,0 +1,137 @@
+@import url('./common.css');
+*{
+    font-family: "Poppins",sans-serif;
+}
+.contBu{
+    margin: 0;
+    min-height: 50vh;
+}
+.contBu .cont-1{display: block;}
+.cont-1 .cont1-inner{
+    position: relative;
+    padding: 100px 0 420px;
+    margin: 0 0 0 360px;
+    width: auto;
+}
+.cont-1 .cont1-inner p{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+.cont-1 .cont1-img{
+    visibility: inherit;
+    position: absolute;
+    left: 950px; top: 190px;
+    transform: translate(0px 0px);
+}
+.cont-1 .cont1-img img{
+    display: block;
+    width: 587px;
+}
+
+.cont-2{}
+.cont-2 .cont2-inner{
+    margin: 0 auto;
+    width: 1200px;
+}
+.cont2-inner .cont2-title{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 48px 0;
+}
+.cont2-title h2{
+    width: 407px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #121212;
+}
+.cont2-title span{
+    font-size: 18px;
+    color: #333;
+}
+.cont2-inner .cont2-txt{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 70px 407px;
+}
+.cont2-txt dl{
+    width: 382px;
+    padding: 0 0 10px 0;
+}
+.cont2-txt dl dt{
+    margin: 0 0 24px 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+}
+.cont2-txt dl dd{
+    font-size: 16px;
+    color: #333;
+    letter-spacing: -0.004em;
+}
+
+
+.cont-3{
+    margin-bottom: 160px;
+}
+.cont-3 .cont3-img{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+
+.cont-4{margin-bottom: 100px;}
+.cont-4 .cont4-inner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1200px;
+}
+.cont4-inner h2{
+    display: block;
+    width: 407px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #121212;
+}
+.cont4-inner .cont4-list{width: 790px;}
+.cont4-list ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cont4-list ul li{
+    margin: 0 100px 50px 0;
+    width: 290px;
+}
+.cont4-list ul li dl dd{
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+.cont4-list ul li dl dd img{
+    display: block;
+    width: 80px; height: 80px;
+}
+.cont4-list ul li dl dt{
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+}
+.cont4-list ul li dl dd{
+    margin-bottom: 24px;
+    font-size: 16px;
+    color: #333;
+}
+.cont4-list ul li dl .link button{
+    position: relative;
+    padding: 11px 15px 11px 20px;
+    width: 185px;
+    font-size: 14px;
+    text-align: left;
+    border: 1px solid #121212;
+    background: url(/img/ico_link.png) no-repeat;
+    background-size: auto 20px;
+    background-position: right 20px top 50%;
+    transition: all .2s ease;
+}

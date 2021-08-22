@@ -1,0 +1,116 @@
+@import url('./common.css');
+
+.cont-history{
+    margin: 0;
+    min-height: 50vh;
+}
+
+
+.cont_top{
+    margin: 0 0 0 360px;
+    width: auto;
+    height: 324px
+}
+.cont_top .top-inner{
+    position: fixed;
+    left: 50%;
+    margin: 0 0 0 -600px;
+    top: 190px;
+}
+.cont_top .top-inner p{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.8;
+}
+
+.history{
+    padding: 20px 0 60px;
+}
+.history-inner{
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+}
+.history-inner .his-img{
+    margin-top: 0px;
+    position: fixed;
+    top: 470px; left: 50%;
+    margin: 0 0 0 -600px;
+}
+.history-inner .his-img h3 button{
+    display: block;
+    padding: 0 73px 30px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    color: #121212;
+    text-align: right;
+    box-sizing: border-box;
+    background: url(/img/icon-arrow-down.png) no-repeat right 10px;
+    background-size: 20px auto;
+    border: 0;
+}
+.history-inner .his-img h3 button.on{
+    background: url(/img/icon-arrow-up.png) no-repeat right 10px;
+    background-size: 20px auto;
+}
+
+.history-inner .his-img ul{
+    position: absolute;
+    height: 0;
+    left: 0; right: 0; top: 60px;
+    overflow: hidden;
+    background: #fff;
+    transition: all .4s ease;
+}
+.history-inner .his-img ul li{
+    margin: 0 73px 30px;
+    text-align: right;
+}
+
+.history-inner .his-img img{width: 486px;}
+
+.his-list{margin: 0 0 0 614px;}
+.his-list dl{
+    position: relative;
+    margin-bottom: 60px;
+    width: 587px;
+}
+.his-list dl::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 37px; top: 120px; bottom: 10px;
+    width: 1px;
+    background: #b0b1bc;
+}
+.his-list dt{
+    margin: 0 0 25px 0;
+    padding: 0 0 16px 0;
+    font-family: "Poppins",sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    border-bottom: 2px solid #ddd;
+}
+.his-list dd{
+    position: relative;
+    margin: 0 0 30px 100px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+.his-list dd::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: -67px; top: 14px;
+    z-index: 1;
+    width: 9px; height: 9px;
+    border-radius: 100%;
+    box-sizing: border-box;
+    background: #fff;
+}
+.one dd::before{border: 2px solid rgb(89, 89, 255);}
+.two dd::before{border: 2px solid rgb(11, 165, 47);}
+.three dd::before{border: 2px solid rgb(183, 7, 214);}
+.four dd::before{border: 2px solid rgb(255, 54, 54);}

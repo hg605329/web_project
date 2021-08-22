@@ -1,0 +1,233 @@
+@charset 'utf-8';
+
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, form,input, p, th, td {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans KR",sans-serif;
+  font-weight: 400;
+}
+
+li{list-style: none;}
+a:link{text-decoration: none;}
+
+header {
+  position: relative;
+  height: 90px;
+}
+
+header .area-inner {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  height: 90px;
+  background: #fff;
+  transition: all .4s ease
+}
+
+.area-inner .title {
+  position: absolute;
+  left: 48px;
+  top: 39px;
+}
+
+.area-inner .title a {
+  display: block;
+  width: 120px;
+  height: 51px;
+  text-indent: -1000px;
+  overflow: hidden;
+  background: url(/img/img_logo.png) no-repeat 50%;
+  background-size: 120px auto
+}
+
+.area-inner .btn-menu {
+  display: none;
+  position: absolute;
+  right: 24px;
+  top: 24px;
+}
+
+.area-inner .btn-menu button {
+  display: block;
+  width: 20px;
+  height: 18px;
+  text-indent: -1000px;
+  overflow: hidden;
+  background: url(/img/icon-sitemap.png) no-repeat 50%;
+  background-size: 20px auto;
+}
+
+.area-inner .nav-global {
+  margin: 0 0 0 360px;
+  padding: 65px 0 0 0;
+}
+
+.contain-nav ul {
+  display: block;
+}
+
+.contain-nav ul li {
+  position: relative;
+  height: 40px;
+  width: 90px;
+  /* max-width: 0 38px 0 0; */
+  display: inline-block;
+  padding: 0 50px 0 0;
+
+}
+
+.contain-nav ul li a {
+  display: block;
+  font-size: 20px;
+  color: #121212;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.contain-nav ul li a:hover {
+  font-weight: 550;
+}
+
+.depth {
+  position: absolute;
+  z-index: 1;
+  top: 40px;
+  left: 0;
+  width: 55px;
+  padding: 0 20px;
+  height: 0;
+  box-shadow: 0 10px 10px 0 rgba(18, 18, 18, .2);
+  border-radius: 4px;
+  transition: all .2s ease;
+  background-color: #fff;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.25s ease-in-out;
+}
+
+.contain-nav ul li:hover .depth {
+  padding: 10px 20px;
+  height: 100px;
+  border-top: 3px solid #000;
+}
+
+.contain-nav ul li .depth a {
+  display: block;
+  margin: 8px 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.contain-nav ul li .depth a:hover {
+  font-weight: 700;
+}
+
+.contain-nav .contain-other {
+  position: absolute;
+  right: 48px;
+  top: 100px;
+  display: flex;
+}
+
+.contain-nav .contain-other a {
+  text-decoration: none;
+  color: #121212;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  padding: 0 20px;
+}
+
+.contain-nav .contain-other a:hover {
+  font-weight: 600;
+}
+
+/* 왼쪽 사이드 메뉴 */
+.area-nav-local{
+  position: fixed;
+  z-index: 1;
+  left: 48px; top: 212px;
+}
+.area-nav-local .nav-loacl a{
+  display: block;
+  position: relative;
+  margin-bottom: 23px;
+  font-size: 15px;
+  color: #ddd;
+  font-weight: 500;
+}
+.area-nav-local .nav-loacl a.on{
+  color: #121212; font-weight: 600;
+}
+.area-nav-local .nav-loacl a.on::after{
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0; bottom: -1px;
+  width: 100%; height: 1px;
+  background: #212121;
+}
+
+/* footer */
+footer{
+  position: relative;
+  padding: 40px 48px;
+  border-top: 1px solid #eaeaea;
+  background-color: #fff;
+}
+.footer-inner{
+  position: relative;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.footer-inner .familysite{
+  position: absolute;
+  top: 0; right: 0;
+}
+.footer-inner .familysite p{
+  display: block;
+  padding: 0 23px 0 0;
+  font-size: 16px;
+  color: #121212;
+  font-family: "Poppins",sans-serif;
+  background: url(/img/icon_familysite.png) no-repeat right 0 top 50%;
+  background-size: 15px auto;
+}
+.footer-inner .footer-box{
+  display: flex;
+  margin-bottom: 70px;
+}
+.footer-inner .footer-box dl{
+  margin: 0 72px 0 0;
+}
+.footer-inner .footer-box dl dt{
+  margin: 0 0 27px 0;
+  font-size: 16px;
+  color: #121212;
+  font-family: "Poppins",sans-serif;
+}
+.footer-box dl dd{margin-bottom: 14px;}
+.footer-box dl dd img{width: 12px; height: 12px;}
+.footer-box .copyright{
+  font-size: 14px;
+  color: #999aa9;
+}
+.footer-box .sns{
+  position: absolute;
+  right: 0; bottom: 0;
+  display: flex;
+}
+.footer-box .sns a{
+  display: block;
+  margin: 0 0 0 24px;
+}
+.footer-box .sns a img{
+  width: 24px; height: 24px;
+}
+
+
