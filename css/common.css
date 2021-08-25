@@ -38,10 +38,10 @@ header .area-inner {
   display: block;
   width: 120px;
   height: 51px;
-  text-indent: -1000px;
-  overflow: hidden;
-  background: url(./img/img_logo.png) no-repeat 50%;
-  background-size: 120px auto
+}
+.title a img{
+  width: 120px;
+  height: 51px;
 }
 
 .area-inner .btn-menu {
@@ -57,7 +57,7 @@ header .area-inner {
   height: 18px;
   text-indent: -1000px;
   overflow: hidden;
-  background: url(./img/icon-sitemap.png) no-repeat 50%;
+  background: url(/img/icon-sitemap.png) no-repeat 50%;
   background-size: 20px auto;
 }
 
@@ -79,7 +79,6 @@ header .area-inner {
   padding: 0 50px 0 0;
 }
 .nav1 li .tab-1{border-bottom: 1px solid #000;}
-
 .contain-nav ul li a {
   display: block;
   font-size: 20px;
@@ -199,7 +198,7 @@ footer{
   font-size: 16px;
   color: #121212;
   font-family: "Poppins",sans-serif;
-  background: url(./img/icon_familysite.png) no-repeat right 0 top 50%;
+  background: url(/img/icon_familysite.png) no-repeat right 0 top 50%;
   background-size: 15px auto;
 }
 .footer-inner .footer-box{
