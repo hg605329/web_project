@@ -40,7 +40,7 @@ header .area-inner {
   height: 51px;
   text-indent: -1000px;
   overflow: hidden;
-  background: url(/img/img_logo.png) no-repeat 50%;
+  background: url(img/img_logo.png) no-repeat 50%;
   background-size: 120px auto
 }
 
@@ -57,7 +57,7 @@ header .area-inner {
   height: 18px;
   text-indent: -1000px;
   overflow: hidden;
-  background: url(/img/icon-sitemap.png) no-repeat 50%;
+  background: url(img/icon-sitemap.png) no-repeat 50%;
   background-size: 20px auto;
 }
 
