@@ -65,12 +65,12 @@
     color: #121212;
     text-align: right;
     box-sizing: border-box;
-    background: url(/img/icon-arrow-down.png) no-repeat right 10px;
+    background: url(img/icon-arrow-down.png) no-repeat right 10px;
     background-size: 20px auto;
     border: 0;
 }
 .history-inner .his-img h3 button.on{
-    background: url(/img/icon-arrow-up.png) no-repeat right 10px;
+    background: url(img/icon-arrow-up.png) no-repeat right 10px;
     background-size: 20px auto;
 }
 
